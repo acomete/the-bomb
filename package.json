@@ -1,0 +1,26 @@
+{
+  "name": "the-bomb",
+  "version": "1.0.0",
+  "description": "bomb countdown app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acomete/the-bomb.git"
+  },
+  "keywords": [
+    "bomb",
+    "espace-game"
+  ],
+  "author": "Pierre-Gérard David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acomete/the-bomb/issues"
+  },
+  "homepage": "https://github.com/acomete/the-bomb#readme",
+  "devDependencies": {
+    "electron": "^23.1.3"
+  }
+}
