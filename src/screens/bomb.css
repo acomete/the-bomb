@@ -1,0 +1,66 @@
+body {
+    background-image: url("../../assets/images/timebomb-near.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-color: black;
+    position: relative;
+}
+
+#digits-background {
+    font-family: Digits, serif;
+    position: fixed;
+    top: 18.7vw;
+    left: 43.8vw;
+    font-size: 7vw;
+    color: #79ff8e;
+    opacity: 0.2;
+}
+
+#digits {
+    font-family: Digits, serif;
+    position: fixed;
+    top: 18.7vw;
+    left: 43.8vw;
+    font-size: 7vw;
+    color: #77f18a;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+#digits span:not(.dot) {
+    display: inline-block;
+    width: 3.5vw;
+    text-align: center;
+}
+
+#digits span.dot {
+    display: inline-block;
+    width: 1.5vw;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #bffcc2, 0 0 20px #a6fab1, 0 0 30px #84ff9c, 0 0 40px #4a913f, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #79ff8e, 0 0 30px #77ff7a, 0 0 40px #70c45d, 0 0 50px #5a9f55, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+@font-face {
+    font-family: Digits;
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../../assets/fonts/DS-DIGI.TTF')
+}
+
+@font-face {
+    font-family: Digits;
+    font-style: normal;
+    font-weight: bold;
+    src: local(''),
+    url('../../assets/fonts/DS-DIGIB.TTF')
+}
