@@ -11,7 +11,7 @@ document.addEventListener('keydown', function (event) {
         if (step < 1) step = 1;
     }
 
-    document.getElementById('slide').src =`../../../assets/images/slide-0${step}.png`
+    document.getElementById('slide').src =`../../../assets/images/Slides%20Scientifics-0${step}.png`
 
     if (step === lastStep) {
         window.electronAPI.hackIt()
