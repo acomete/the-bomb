@@ -3,9 +3,9 @@ const path = require("path");
 
 const createWindow = () => {
   const win = new BrowserWindow({
-    width: 640,
-    height: 360,
-    // fullscreen: true,
+    width: 1280,
+    height: 720,
+    fullscreen: true,
     // alwaysOnTop: true,
     closable: true,
     webPreferences: {
@@ -19,16 +19,20 @@ const createWindow = () => {
     }
   })
 
-  ipcMain.on('video-ended', (event) => {
-    win.loadFile('./src/screens/bomb.html')
+  ipcMain.on('hack-it', (event) => {
+    win.loadFile('./src/screens/video/video.html')
   })
 
-  win.loadFile('./src/screens/bomb.html')
+  ipcMain.on('video-ended', (event) => {
+    win.loadFile('./src/screens/bomb/bomb.html')
+  })
+
+  ipcMain.on('defused', (event) => {
+    app.quit();
+  })
+
+  win.loadFile('./src/screens/slides/slides.html')
 }
 
-app
-    .whenReady()
-    .then(() => {
-      createWindow()
-    })
+app.whenReady().then(() => createWindow())
 

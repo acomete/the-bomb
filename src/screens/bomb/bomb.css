@@ -1,5 +1,5 @@
 body {
-    background-image: url("../../assets/images/timebomb-near.jpg");
+    background-image: url("../../../assets/images/timebomb-near.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
@@ -14,7 +14,7 @@ body {
     left: 43.8vw;
     font-size: 7vw;
     color: #79ff8e;
-    opacity: 0.2;
+    opacity: 0.1;
 }
 
 #digits {
@@ -42,10 +42,10 @@ body {
 
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 10px #bffcc2, 0 0 20px #a6fab1, 0 0 30px #84ff9c, 0 0 40px #4a913f, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+        text-shadow: 0 0 10px #bffcc2;
     }
     to {
-        text-shadow: 0 0 20px #79ff8e, 0 0 30px #77ff7a, 0 0 40px #70c45d, 0 0 50px #5a9f55, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+        text-shadow: 0 0 20px #79ff8e;
     }
 }
 
@@ -54,7 +54,7 @@ body {
     font-style: normal;
     font-weight: 400;
     src: local(''),
-    url('../../assets/fonts/DS-DIGI.TTF')
+    url('../../../assets/fonts/DS-DIGI.TTF')
 }
 
 @font-face {
@@ -62,5 +62,5 @@ body {
     font-style: normal;
     font-weight: bold;
     src: local(''),
-    url('../../assets/fonts/DS-DIGIB.TTF')
+    url('../../../assets/fonts/DS-DIGIB.TTF')
 }

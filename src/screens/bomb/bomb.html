@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"/>
+    <title>The Bomb</title>
+    <link rel="stylesheet" href="bomb.css">
+    <link rel="stylesheet" href="password.css">
+    <link href="../../../assets/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="../../../assets/fontawesome/css/solid.css" rel="stylesheet">
+</head>
+<body>
+<div id="digits-background">00:00:00</div>
+<div id="digits">
+    <span id="minutes-1"></span><span id="minutes-2"></span><span class="dot">:</span><span id="seconds-1"></span><span
+        id="seconds-2"></span><span class="dot">:</span><span id="milliseconds-1"></span><span
+        id="milliseconds-2"></span>
+</div>
+<div id="password-prompt">
+    <div>
+        <h3>Bomb detonation override</h3>
+        <p>Enter the 3 passwords.</p>
+    </div>
+    <div id="successes">
+        <i id="success-1" class="fa-solid fa-lock"></i>
+        <i id="success-2" class="fa-solid fa-lock"></i>
+        <i id="success-3" class="fa-solid fa-lock"></i>
+    </div>
+    <div id="password-input">
+        <input type="text" value="" id="password" placeholder="enter password" autofocus spellcheck="false"/>
+        <button id="defuse">DEFUSE THE BOMB</button>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="bomb.js"></script>
+</html>
