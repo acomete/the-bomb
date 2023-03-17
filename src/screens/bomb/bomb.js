@@ -39,9 +39,9 @@ document.addEventListener('keydown', function (event) {
 });
 
 passwords = [
-    '1',
-    '2',
-    '3',
+    'vesuve', // obsédé par les volcans
+    'cesar', // sa motivation, la personne qu'il déteste
+    'Chica', // securité google : le nom de votre premier animal de compagnie
 ]
 
 step = 0

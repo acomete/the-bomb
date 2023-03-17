@@ -1,5 +1,5 @@
 let step = 1;
-const lastStep = 6;
+const lastStep = 5;
 document.addEventListener('keydown', function (event) {
     if (event.code === 'Space' || event.code === 'ArrowRight') {
         step++

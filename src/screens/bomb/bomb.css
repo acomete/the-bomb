@@ -13,7 +13,7 @@ body {
     top: 18.7vw;
     left: 43.8vw;
     font-size: 7vw;
-    color: #79ff8e;
+    color: #ff4f4f;
     opacity: 0.1;
 }
 
@@ -23,7 +23,7 @@ body {
     top: 18.7vw;
     left: 43.8vw;
     font-size: 7vw;
-    color: #77f18a;
+    color: #ff2525;
     -webkit-animation: glow 3s ease-in-out infinite alternate;
     -moz-animation: glow 3s ease-in-out infinite alternate;
     animation: glow 3s ease-in-out infinite alternate;
@@ -42,10 +42,10 @@ body {
 
 @-webkit-keyframes glow {
     from {
-        text-shadow: 0 0 10px #bffcc2;
+        text-shadow: 0 0 10px #ff2626;
     }
     to {
-        text-shadow: 0 0 20px #79ff8e;
+        text-shadow: 0 0 20px #ff5454;
     }
 }
 
