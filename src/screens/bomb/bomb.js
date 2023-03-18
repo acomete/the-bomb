@@ -41,7 +41,7 @@ document.addEventListener('keydown', function (event) {
 passwords = [
     'vesuve', // obsédé par les volcans
     'cesar', // sa motivation, la personne qu'il déteste
-    'chica', // securité google : le nom de votre premier animal de compagnie
+    'rex', // securité google : le nom de votre premier animal de compagnie
 ]
 
 let step = 0
