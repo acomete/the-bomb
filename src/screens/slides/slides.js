@@ -15,6 +15,5 @@ document.addEventListener('keydown', function (event) {
 
     if (step === lastStep) {
         window.electronAPI.hackIt()
-
     }
 });

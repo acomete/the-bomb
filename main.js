@@ -28,6 +28,10 @@ const createWindow = () => {
   })
 
   ipcMain.on('defused', (event) => {
+     win.loadFile('./src/screens/defused/defused.html')
+  })
+
+  ipcMain.on('quit', (event) => {
     app.quit();
   })
 

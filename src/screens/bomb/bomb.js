@@ -41,10 +41,10 @@ document.addEventListener('keydown', function (event) {
 passwords = [
     'vesuve', // obsédé par les volcans
     'cesar', // sa motivation, la personne qu'il déteste
-    'Chica', // securité google : le nom de votre premier animal de compagnie
+    'chica', // securité google : le nom de votre premier animal de compagnie
 ]
 
-step = 0
+let step = 0
 input.addEventListener('keyup', (event) => {
     if (event.key === 'Enter') {
         if (input.value === passwords[step]) {

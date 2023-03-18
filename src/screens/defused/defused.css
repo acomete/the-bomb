@@ -1,0 +1,42 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Console, serif;
+    align-items: center;
+    background-color: #74ce5a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+@font-face {
+    font-family: Console;
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../../../assets/fonts/JetBrainsMono-Regular.ttf')
+}
+
+@font-face {
+    font-family: Console;
+    font-style: normal;
+    font-weight: bold;
+    src: local(''),
+    url('../../../assets/fonts/JetBrainsMono-Bold.ttf')
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 35px;
+}
